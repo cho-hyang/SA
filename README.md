@@ -174,7 +174,31 @@ public class Main {
 | 13                                | -0.6                           |
 
 **y=-0.05x+0.05**
+```java
+package com.company;
 
+public class Main {
+    public static void main(String[] args) {
+        SimulatedAnnealing sa = new SimulatedAnnealing(10);
+        Problem p = new Problem() {
+            @Override
+            public double fit(double x) {
+                return -0.05*x+0.05;
+
+            }
+
+            @Override
+            public boolean isNeighborBetter(double f0, double f1) {
+                return f0 < f1;
+            }
+        };
+        double x = sa.solve(p, 100, 0.99, 0, -3, 3);
+        System.out.println(x);
+        System.out.println(p.fit(x));
+        System.out.println(sa.hist);
+    }
+}
+```
 ![0611-6](https://user-images.githubusercontent.com/80511265/121706823-f1b4b800-cb10-11eb-8d44-a7922c868dc8.PNG)
 ![0611-4](https://user-images.githubusercontent.com/80511265/121706233-63403680-cb10-11eb-9c05-05b56d78ed33.PNG)
 
