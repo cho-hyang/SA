@@ -173,7 +173,8 @@ public class Main {
 | 11                                | -0.5                           |
 | 13                                | -0.6                           |
 
-y=-0.05x+0.05
-![0611-3](https://user-images.githubusercontent.com/80511265/121706108-46a3fe80-cb10-11eb-95c6-53ed3df3d8e5.PNG)
+**y=-0.05x+0.05**
+
+![0611-6](https://user-images.githubusercontent.com/80511265/121706823-f1b4b800-cb10-11eb-8d44-a7922c868dc8.PNG)
 ![0611-4](https://user-images.githubusercontent.com/80511265/121706233-63403680-cb10-11eb-9c05-05b56d78ed33.PNG)
 
