@@ -160,3 +160,20 @@ public class Main {
 ![0611-2](https://user-images.githubusercontent.com/80511265/121704232-85d15000-cb0e-11eb-9b79-556e28a0e61d.PNG)
 ![Screenshot_20210611-231320_Samsung Internet](https://user-images.githubusercontent.com/80511265/121703812-26734000-cb0e-11eb-8d92-a6f5cba3f584.jpg)
 
+
+## 종속변수&독립변수, curve fitting
+
+| 일 평균 휴대폰 사용시간(독립변수) | 한 달 평균 시력 변화(종속변수) |
+| --------------------------------- | ------------------------------ |
+| 1                                 | -0                             |
+| 3                                 | -0.1                           |
+| 5                                 | -0.2                           |
+| 7                                 | -0.3                           |
+| 9                                 | -0.4                           |
+| 11                                | -0.5                           |
+| 13                                | -0.6                           |
+
+y=-0.05x+0.05
+![0611-3](https://user-images.githubusercontent.com/80511265/121706108-46a3fe80-cb10-11eb-95c6-53ed3df3d8e5.PNG)
+![0611-4](https://user-images.githubusercontent.com/80511265/121706233-63403680-cb10-11eb-9c05-05b56d78ed33.PNG)
+
