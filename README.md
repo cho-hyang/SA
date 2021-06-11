@@ -161,7 +161,7 @@ public class Main {
 ![Screenshot_20210611-231320_Samsung Internet](https://user-images.githubusercontent.com/80511265/121703812-26734000-cb0e-11eb-8d92-a6f5cba3f584.jpg)
 
 
-## 종속변수&독립변수, curve fitting
+## 선형모델&성능평가
 
 | 일 평균 휴대폰 사용시간(독립변수) | 한 달 평균 시력 변화(종속변수) |
 | --------------------------------- | ------------------------------ |
