@@ -150,13 +150,13 @@ public class Main {
                 return f0 < f1;
             }
         };
-        double x = sa.solve(p, 100, 0.99, 0, -10, 50);
+        double x = sa.solve(p, 100, 0.99, 0, -3, 3);
         System.out.println(x);
         System.out.println(p.fit(x));
         System.out.println(sa.hist);
     }
 }
 ```
-![0611-1](https://user-images.githubusercontent.com/80511265/121703923-3be86a00-cb0e-11eb-9023-65a98bbb3210.PNG)
+![0611-2](https://user-images.githubusercontent.com/80511265/121704232-85d15000-cb0e-11eb-9b79-556e28a0e61d.PNG)
 ![Screenshot_20210611-231320_Samsung Internet](https://user-images.githubusercontent.com/80511265/121703812-26734000-cb0e-11eb-8d92-a6f5cba3f584.jpg)
 
